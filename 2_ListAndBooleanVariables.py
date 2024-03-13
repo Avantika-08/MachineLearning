@@ -1,17 +1,17 @@
 #Boolean
-print(bool())     #False
+# print(bool())     #False
 
 my_str="Hello World"
-print(my_str.isalnum())      #False
-print(my_str.isalpha())      #False -> it checks if all the characters are alphabets. In our case there is a space in b/w Hello and World
-print(my_str.isdigit())      #False
-print(my_str.istitle())      #True
-print(my_str.startswith("H"))      #True
-print(my_str.endswith('a'))        #False
+# print(my_str.isalnum())      #False
+# print(my_str.isalpha())      #False -> it checks if all the characters are alphabets. In our case there is a space in b/w Hello and World
+# print(my_str.isdigit())      #False
+# print(my_str.istitle())      #True
+# print(my_str.startswith("H"))      #True
+# print(my_str.endswith('a'))        #False
 
 
 #Boolean and Logical Operators
-print(True and True)         #False
+print(True and True)         #True
 print(True or False)         #True
 
 print(my_str.isalnum() or my_str.isalpha())    #False
